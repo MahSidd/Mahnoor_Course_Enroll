@@ -1,0 +1,30 @@
+.course-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap between the columns */
+    margin-top: 30PX;
+    
+  }
+  
+  .course-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .course-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* 3 columns */
+    gap:10px; /* Smooth scrolling */
+  }
+  .course-container choose h1{
+    text-align: left;
+
+  }
+  
+  
+  

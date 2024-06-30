@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.course-details-container{
+    justify-content: center;
+    display: flex;
+    
+}
+.course-details{
+    margin-top: 10%;
+}

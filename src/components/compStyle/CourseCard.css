@@ -1,0 +1,29 @@
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* 3 columns */
+    gap:10px;
+}
+.cards{
+    border-radius: 20px;
+    
+}
+.cards-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.course-list{
+    height: 18rem;
+    font-size: 20px;
+}
+.card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2; /* fallback for other browsers */
+    height: 3em; /* height = line-height * number of lines */
+    max-height: 3em;
+    margin-bottom: 10px;
+  }

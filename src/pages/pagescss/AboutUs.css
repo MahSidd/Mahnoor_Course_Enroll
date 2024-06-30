@@ -1,0 +1,26 @@
+.about-section{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.about-section h1{
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+.about-progress{
+    margin-top: 30px;
+}
+.about-progress h1{
+    color: orangered;
+}
+.about-progress p{
+    margin-top: -20px;
+    color: orangered;
+    font-weight: bold;
+}
